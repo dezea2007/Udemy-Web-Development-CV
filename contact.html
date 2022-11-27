@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Mon contact</title>
+	</head>
+	<body>
+		<h1>Mes informations de contact</h1>
+		<p>Mon adresse : 6 allée des courtes rayes, Eragny 95610, France</p>
+		<p>+33 7 83 81 47 74</p>
+		<p>arthurdeze@gmail.com</p>
+
+		<hr />
+
+		<form
+			action="mailto:arthurdeze@gmail.com"
+			method="post"
+			enctype="text/plain"
+		>
+			<label>Votre nom :</label>
+			<input type="text" name="yourName" /><br />
+			<label>Votre email :</label>
+			<input type="email" name="yourEmail" /><br />
+			<label>Votre message : </label><br />
+			<textarea name="yourMessage" cols="30" rows="10"></textarea><br />
+			<input type="submit" />
+		</form>
+
+		<hr />
+
+		<a href="./index.html">Revenir à la page d'acceuil</a>
+	</body>
+</html>
